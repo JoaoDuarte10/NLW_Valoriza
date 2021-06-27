@@ -1,7 +1,7 @@
-import { getCustomRepository } from "typeorm"
-import { UsersRepositories } from "../repositories/UsersRepositories"
-import { compare } from "bcryptjs"
-import { sign } from "jsonwebtoken"
+import { getCustomRepository } from "typeorm";
+import { UsersRepositories } from "../repositories/UsersRepositories";
+import { compare } from "bcryptjs";
+import { sign } from "jsonwebtoken";
 
 interface IAuthenticateRequest {
     email: string;
@@ -28,4 +28,4 @@ class AuthenticateUserService {
     }
 }
 
-export { AuthenticateUserService }
+export { AuthenticateUserService };

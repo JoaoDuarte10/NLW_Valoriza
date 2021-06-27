@@ -1,5 +1,5 @@
 import { Entity, PrimaryColumn, Column, CreateDateColumn, JoinColumn, ManyToOne } from "typeorm";
-import { v4 as uuid } from "uuid"
+import { v4 as uuid } from "uuid";
 import { Tag } from "./Tag";
 import { User } from "./User";
 
@@ -40,4 +40,4 @@ class Compliment {
     }
 }
 
-export { Compliment }
+export { Compliment };

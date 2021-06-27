@@ -9,8 +9,8 @@ class AuthenticateUserController {
             email,
             password 
         })
-        return res.json(token)
+        return res.json(token);
     }
 }
 
-export { AuthenticateUserController }
+export { AuthenticateUserController };
